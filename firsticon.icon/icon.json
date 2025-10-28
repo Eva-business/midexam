@@ -1,0 +1,64 @@
+{
+  "fill" : {
+    "automatic-gradient" : "extended-srgb:0.00000,0.53333,1.00000,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "fill" : "none",
+          "hidden" : false,
+          "image-name" : "savegram-app-481910716-1028572295972266-4507620181335228340-n-67cfebc15534f.jpg.png",
+          "name" : "savegram-app-481910716-1028572295972266-4507620181335228340-n-67cfebc15534f.jpg",
+          "opacity" : 1,
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              17.4609375,
+              1.4609375
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    },
+    {
+      "layers" : [
+        {
+          "fill" : "none",
+          "image-name" : "images.png",
+          "name" : "images",
+          "opacity" : 0.2,
+          "position" : {
+            "scale" : 5,
+            "translation-in-points" : [
+              2.9,
+              -12.2265625
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

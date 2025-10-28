@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		45ED7F8F2EB0BD6400E9415A /* firsticon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 45ED7F8E2EB0BD6400E9415A /* firsticon.icon */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		45ED7F6C2EB0A88B00E9415A /* midexam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = midexam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45ED7F8E2EB0BD6400E9415A /* firsticon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = firsticon.icon; sourceTree = "<group>"; };
+		45ED7F902EB0BE5700E9415A /* midexam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = midexam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +38,9 @@
 			isa = PBXGroup;
 			children = (
 				45ED7F6E2EB0A88B00E9415A /* midexam */,
-				45ED7F6D2EB0A88B00E9415A /* Products */,
+				45ED7F8E2EB0BD6400E9415A /* firsticon.icon */,
+				45ED7F902EB0BE5700E9415A /* midexam.app */,
 			);
-			sourceTree = "<group>";
-		};
-		45ED7F6D2EB0A88B00E9415A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				45ED7F6C2EB0A88B00E9415A /* midexam.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,7 +65,7 @@
 			packageProductDependencies = (
 			);
 			productName = midexam;
-			productReference = 45ED7F6C2EB0A88B00E9415A /* midexam.app */;
+			productReference = 45ED7F902EB0BE5700E9415A /* midexam.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +93,7 @@
 			mainGroup = 45ED7F632EB0A88B00E9415A;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 45ED7F6D2EB0A88B00E9415A /* Products */;
+			productRefGroup = 45ED7F632EB0A88B00E9415A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -109,6 +107,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45ED7F8F2EB0BD6400E9415A /* firsticon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,12 +246,13 @@
 		45ED7F782EB0A88C00E9415A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = firsticon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = practice;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -278,12 +278,13 @@
 		45ED7F792EB0A88C00E9415A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = firsticon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = practice;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
